@@ -1,1 +1,14 @@
-body{color: red;}
+body{
+  padding: 0 4em 4em 4em;
+  margin: 1em;
+  font-family: 'sans-serif', 'serif', times;
+  border: 3px dotted green;
+}
+.grid-container {
+  border: 3px dotted blue;
+  padding: 1em;
+  display: grid;
+  grid-gap: 1em 2em;
+  background-color: lightblue;
+  grid-template-columns: : repeat (3, 1fr);
+}
